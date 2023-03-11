@@ -1,3 +1,4 @@
+
 /**
  * Write a description of class Book here.
  * Holds information of the book
@@ -14,13 +15,10 @@ public class Book
     /**
      * Constructor for objects of class Book
      */
-    public Book(String aName, String anAuthor, String aDate, int pageNum)
+    public Book(String aName)
     {
         // initialise instance variables
         name = aName;
-        author = anAuthor;
-        publishDate = aDate;
-        numOfPages = pageNum;
     }
 
     /**
@@ -40,6 +38,17 @@ public class Book
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
+    public void setAuthor(String anAuthor)
+    {
+        // put your code here
+        author = anAuthor;
+    }
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
     public String getAuthor()
     {
         // put your code here
@@ -51,10 +60,32 @@ public class Book
      * @param  y  a sample parameter for a method
      * @return    the sum of x and y
      */
+    public void setPublicationDate(String pubDate)
+    {
+        // put your code here
+        publishDate = pubDate;
+    }
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
     public String getPublicationDate()
     {
         // put your code here
         return publishDate;
+    }
+    /**
+     * An example of a method - replace this comment with your own
+     *
+     * @param  y  a sample parameter for a method
+     * @return    the sum of x and y
+     */
+    public void setNumOfPages(int numPages)
+    {
+        // put your code here
+        numOfPages = numPages;
     }
     /**
      * An example of a method - replace this comment with your own
